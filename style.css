@@ -58,7 +58,7 @@ body{
 .menu{
     cursor: pointer;
 }
-.menu.bar{
+.menu .bar{
     display: block;
     width: 28px;
     height: 3px;
@@ -111,7 +111,7 @@ body{
     width: 100%;
 } 
 /* inicio responssivo */
-@media (max-widt:785){
+@media (max-width:785px){
     .navigation{
         padding: 18px 20px;
     }
@@ -142,6 +142,14 @@ body{
         right: 0;
     }
     .nav-item{
-        margin: 0;
+        margin: 16px 0;
+    }
+    /* main */
+    .home{
+        padding: 100px 2%;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        gap: 5rem;
     }
 }
