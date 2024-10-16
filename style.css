@@ -99,5 +99,35 @@ body{
 }
 
 .home-text .text-h4{
-    font
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-bottom: 1rem;
+}
+
+.home-text .text-h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p{
+    margin-bottom: 4rem;
+}
+
+.home-btn{
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+
+.home-btn:hover{
+    background: red;
+}
+
+.home-img img{
+    width: 100%;
 }
