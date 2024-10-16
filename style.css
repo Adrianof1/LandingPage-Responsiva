@@ -127,7 +127,10 @@ body{
 .home-btn:hover{
     background: red;
 }
-
-.home-img img{
+/* redimenssionamneto imagem */
+.home-img img{ 
     width: 100%;
-}
+} 
+
+/* inicio responssivo */
+@media (max-widt)
